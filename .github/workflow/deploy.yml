@@ -26,4 +26,4 @@ jobs:
     - name: deploy the app
       run: npm run deploy
       env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        GH_TOKEN: ${{ secrets.codespaces.GH_TOKEN }}
